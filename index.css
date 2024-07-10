@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     gap: 70%;
-    margin-left: 65px;
+    margin-left: 85px;
     margin-top: 10px;
 }
 .navbar button {
@@ -20,7 +20,10 @@
     border: 1px solid #3d424d;
     border-radius: 5px;
 }
-
+.navbar button a{
+    text-decoration: none;
+    color: #3d424d;
+}
 .hadder {
     max-width: 1470px;
     height: 600px;
@@ -66,32 +69,28 @@
     margin: 0px auto;
 
 }
-
 .dev {
     background-color: #fafafb;
     padding-top: 10px;
     font-family: "Azeret Mono";
     height: 1380px;
+    border-radius: 20px;
 }
-
 .dev-1 {
     text-align: center;
 }
-
 .dev-2 {
     display: flex;
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 175px;
     margin-right: 180px;
-    gap: 38%;
+    gap: 30%;
     padding: 60px;
     margin-top: 30px;
     box-shadow: 0 7px 10px rgb(2 12 3 / 28%);
     color: #0d1321c0;
-
 }
-
 .dev-3 {
     display: flex;
     background-color: #ffffff;
@@ -128,7 +127,10 @@
     color: #555963;
     border: 2px solid #555963;
 }
-
+.btn-1 a{
+    text-decoration: none;
+    color: #555963;
+}
 .vid {
     border: 1px solid #cfd0d3;
     border-radius: 15px;
@@ -143,11 +145,12 @@
     height: 100%;
 
 }
-
 .vid-frm {
     border: 1px solid #cfd0d3;
     border-radius: 15px;
-    padding: 20px;
+    padding: 13px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .yt-sec {
